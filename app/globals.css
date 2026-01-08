@@ -3,6 +3,7 @@
 :root {
 	--background: #ffffff;
 	--foreground: #171717;
+	--link-color: red;
 }
 
 /* @theme inline {
@@ -41,12 +42,24 @@ button {
 
 a {
 	background-color: #403b3b;
-	border: 1px solid #0f887d;
+	/* border: 1px solid #0f887d; */
 	border-radius: 3%;
 	margin-left: 5%;
 }
 
 .search {
-	margin: 10%;
+	margin-top: 10%;
 	display: flex;
+}
+
+.color-link {
+	border: 2px solid var(--link-color);
+}
+
+.counter {
+	margin-right: 3%;
+}
+
+h1 {
+	margin-bottom: 5%;
 }

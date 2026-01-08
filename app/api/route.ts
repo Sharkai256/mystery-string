@@ -11,11 +11,25 @@ export async function POST(req: Request) {
 			// "Content-Type": "text/plain"
 	}
 
-	if (body.value == "qwer") {
-		resBody.url = "/Y2K"
-		resBody.color = "green"
-		// resBody = "/Y2K"
+	switch (body.value) {
+		case "d+Xnk6F*2":
+			resBody.url = "/todo"
+			resBody.color = "blue"
+			break;
+
+		case "qwer":
+			resBody.url = "/Y2K"
+			resBody.color = "green"
+			break;
+
+		default:
+			break;
 	}
+	// if (body.value == "qwer") {
+		// resBody.url = "/Y2K"
+		// resBody.color = "green"
+		// resBody = "/Y2K"
+	// }
 
 	// return Response.json(resBody, { headers })
 	return new Response(JSON.stringify(resBody), { headers })
