@@ -1,5 +1,5 @@
 // import Form from "@/components/Form"
-import SearchComponent from "@/components/SearchComponent"
+import SearchComponent from "@/src/components/SearchComponent"
 import Link from "next/link"
 
 export default function Home() {

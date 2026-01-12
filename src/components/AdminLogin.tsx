@@ -1,5 +1,6 @@
 'use client'
 import { useState } from "react";
+// import hashPassword from "@/auth/core/passwordHash";
 
 // const persistedState = (key: string, defaultValue: string) => {
 // 	const [state, setState] = useState(() => {
@@ -35,7 +36,6 @@ export default function AdminLogin() {
 
 		console.log(data)
 		// setUserName(data.name)
-		// console.log("new user name: " + useName)
 	};
 
 	return <>
@@ -54,5 +54,6 @@ export default function AdminLogin() {
 			onChange={(e) => setInputPass(e.target.value)}
 		/>
 		<button onClick={login}>login</button>
+		{/* <button onClick={() => hashed}>hash password</button> */}
 	</>
 }

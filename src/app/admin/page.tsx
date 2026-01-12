@@ -1,7 +1,7 @@
 'use client'
-import AdminLogin from "@/components/AdminLogin"
+import AdminLogin from "@/src/components/AdminLogin"
 // import { useState } from "react";
- //TODO: on log in - localStorage.setItem() => force reload / redirect
+ //TODO: redis; create dummy user; render based to user; sessions; cookies;
 export default function Page() {
 	const userName = "default"
 

@@ -18,7 +18,7 @@ export async function POST(req: Request) {
 			break;
 
 		case "qwer":
-			resBody.url = "/Y2K"
+			resBody.url = "/y2k"
 			resBody.color = "green"
 			break;
 
